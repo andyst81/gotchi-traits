@@ -1,0 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/pixelar');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Pixelar Regular', sans-serif;
+  font-size: 24px;
+}

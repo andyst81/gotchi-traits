@@ -15,7 +15,6 @@ export function WalletForm() {
         <input className="appearance-none bg-transparent border-none min-w-full text-blue-700" 
           type="text" 
           placeholder="Wallet Address" 
-          ariaLabel="Wallet Address"
           value={address}
           onChange={e => setAddress(e.target.value)}
         />

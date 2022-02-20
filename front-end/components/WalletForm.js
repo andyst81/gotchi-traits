@@ -21,15 +21,15 @@ export function WalletForm() {
         />
       </div>
     </form>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded-full"
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded-full"
       onClick={() => setTraits('baseStats')}>
         Base Stats
       </button>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded-full"
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded-full"
       onClick={() => setTraits('modifiedStats')}>
         With Wearables
       </button>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded-full"
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded-full"
       onClick={() => setTraits('withSetStats')}>
         With Bonuses
       </button>
